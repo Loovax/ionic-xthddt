@@ -5,6 +5,7 @@ import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
+import { ShopPage } from '../pages/shop/shop';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
@@ -14,6 +15,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     AboutPage,
     ContactPage,
     HomePage,
+    ShopPage,
     TabsPage
   ],
   imports: [
@@ -26,6 +28,7 @@ import { TabsPage } from '../pages/tabs/tabs';
     AboutPage,
     ContactPage,
     HomePage,
+    ShopPage,
     TabsPage
   ],
   providers: [

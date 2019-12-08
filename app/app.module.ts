@@ -1,7 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { iApp } from '../app/app.component';
+import { MyApp } from '../app/app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
@@ -11,7 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 @NgModule({
   declarations: [
-    iApp,
+    MyApp,
     AboutPage,
     ContactPage,
     HomePage,
@@ -20,11 +20,11 @@ import { TabsPage } from '../pages/tabs/tabs';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(iApp)
+    IonicModule.forRoot(MyApp)
   ],
-  bootstrap: [IonicApp],
+  bootstrap: [MyApp],
   entryComponents: [
-    iApp,
+    MyApp,
     AboutPage,
     ContactPage,
     HomePage,

@@ -6,7 +6,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 @Component({
   templateUrl: 'app.html'
 })
-export class App {
+export class iApp {
   rootPage:any = TabsPage; //any = TabsPage;
 
   constructor(platform: Platform) {
